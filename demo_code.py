@@ -13,7 +13,7 @@ class BaseNumberGenerator:
     """Declare a method -- `get_number`."""
 
     def __init__(
-        self):
+         self):
         self.limits = (1, 10)
 
     def get_number(self, min_max):
