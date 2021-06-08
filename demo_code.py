@@ -12,8 +12,7 @@ AWS_SECRET_KEY = "d6s$f9g!j8mg7hw?n&2"
 class BaseNumberGenerator:
     """Declare a method -- `get_number`."""
 
-    def __init__(
-         self):
+    def __init__(self):
         self.limits = (1, 10)
 
     def get_number(self, min_max):
@@ -22,7 +21,7 @@ class BaseNumberGenerator:
     def smethod():
         """static method-to-be"""
 
-    smethod =   staticmethod(smethod)
+    smethod = staticmethod(smethod)
 
     def cmethod(cls, something):
         """class method-to-be"""
